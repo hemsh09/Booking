@@ -1,0 +1,15 @@
+.tabsTitle {
+@apply w-[70px] h-[35px] flex items-center justify-center shadow-CustomShadow rounded-[50px] text-[13px] text-black
+}
+
+.clinicTitle {
+  @apply w-[70px] h-[35px] flex items-center justify-center shadow-CustomShadow rounded-[50px] bg-orangeGradient text-[13px] font-bold text-white
+  }
+
+.tabsButton {
+  @apply bg-purpleGradient shadow-CustomShadow flex items-center justify-center text-white rounded-[50px] text-[10px] w-[95px] h-[35px] font-bold
+}
+
+.viewButton {
+  @apply flex items-center justify-center text-black border-[1px] border-solid border-[#999999] rounded-[50px] text-[10px] w-[95px] h-[35px] font-bold
+}
